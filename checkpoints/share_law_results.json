@@ -1,0 +1,126 @@
+{
+ "config": {
+  "N": 24,
+  "j0": 1,
+  "mode_1based": 7,
+  "zeta1": 0.01,
+  "A_fixed": 0.02,
+  "span": 400.0,
+  "dt": 0.05,
+  "edge_trim": 20
+ },
+ "uniform_damping": {
+  "c_min": 0.002511620781172476,
+  "c_max": 0.002511620781172476,
+  "all_equal": true,
+  "note": "modal damping is uniform, so an energy-weighted mixture of modal damping values equals the true value and mixing cannot produce bias in this system"
+ },
+ "records": [
+  {
+   "mu": 0.0004,
+   "k3": 1.0,
+   "share_mean": 0.99514646868818,
+   "share_start": 0.9974721477294853,
+   "share_end": 0.9970814248816388,
+   "dlnf_dt": 5.733243451519382e-06,
+   "cbar_over_ctrue": 1.0,
+   "r_env": 0.9952425421791684,
+   "r_derived": 0.9977173132606257,
+   "r_share_proxy": 0.99514646868818
+  },
+  {
+   "mu": 0.0005,
+   "k3": 1.25,
+   "share_mean": 0.9089682057094801,
+   "share_start": 0.9113109605444666,
+   "share_end": 0.9319255234541973,
+   "dlnf_dt": 0.00012448033573593675,
+   "cbar_over_ctrue": 1.0,
+   "r_env": 0.9468672084636145,
+   "r_derived": 0.9504382442329424,
+   "r_share_proxy": 0.9089682057094801
+  },
+  {
+   "mu": 0.0006,
+   "k3": 1.4999999999999998,
+   "share_mean": 0.8465222645073361,
+   "share_start": 0.8477391261103001,
+   "share_end": 0.8822868315170596,
+   "dlnf_dt": 0.00023537213305896407,
+   "cbar_over_ctrue": 1.0,
+   "r_env": 0.9019445976191804,
+   "r_derived": 0.9062867552206318,
+   "r_share_proxy": 0.8465222645073361
+  },
+  {
+   "mu": 0.0007,
+   "k3": 1.75,
+   "share_mean": 0.7933765104185806,
+   "share_start": 0.7898567148909396,
+   "share_end": 0.837622951127679,
+   "dlnf_dt": 0.00035463230347043863,
+   "cbar_over_ctrue": 1.0,
+   "r_env": 0.853732947666442,
+   "r_derived": 0.8588034045072326,
+   "r_share_proxy": 0.7933765104185806
+  },
+  {
+   "mu": 0.0008,
+   "k3": 2.0,
+   "share_mean": 0.7477892472403919,
+   "share_start": 0.7398890475360271,
+   "share_end": 0.7975047967236912,
+   "dlnf_dt": 0.0004695950108061372,
+   "cbar_over_ctrue": 1.0,
+   "r_env": 0.807309673581552,
+   "r_derived": 0.8130310856136009,
+   "r_share_proxy": 0.7477892472403919
+  },
+  {
+   "mu": 0.001,
+   "k3": 2.5,
+   "share_mean": 0.6660298533099346,
+   "share_start": 0.6482660164947232,
+   "share_end": 0.7193886512779998,
+   "dlnf_dt": 0.0007043069678632349,
+   "cbar_over_ctrue": 1.0,
+   "r_env": 0.7126669570590044,
+   "r_derived": 0.7195806894325624,
+   "r_share_proxy": 0.6660298533099346
+  },
+  {
+   "mu": 0.0013,
+   "k3": 3.2499999999999996,
+   "share_mean": 0.5647365315633631,
+   "share_start": 0.5326187675684317,
+   "share_end": 0.6092858292703561,
+   "dlnf_dt": 0.0010339896701761979,
+   "cbar_over_ctrue": 1.0,
+   "r_env": 0.5799763083985738,
+   "r_derived": 0.5883177596207377,
+   "r_share_proxy": 0.5647365315633631
+  },
+  {
+   "mu": 0.0016,
+   "k3": 4.0,
+   "share_mean": 0.4633253493960599,
+   "share_start": 0.4262235654331791,
+   "share_end": 0.4872915882344695,
+   "dlnf_dt": 0.0013548310293640497,
+   "cbar_over_ctrue": 1.0,
+   "r_env": 0.45137567962866854,
+   "r_derived": 0.46057500418849584,
+   "r_share_proxy": 0.4633253493960599
+  }
+ ],
+ "derived_law": {
+  "mean_abs_err": 0.0057042926850781606,
+  "worst_abs_err": 0.009199324559827304,
+  "correlation": 0.99999785938884
+ },
+ "share_proxy": {
+  "mean_abs_err": 0.035890102912207573,
+  "worst_abs_err": 0.06035643724786144,
+  "correlation": 0.989797287662905
+ }
+}

@@ -1,0 +1,262 @@
+{
+ "method": "pair share after hold = seed share * max|lam|^(2*T_hold/T); failure where it reaches 0.1",
+ "seed_pair_energy_share": 1.3378548175029447e-06,
+ "threshold_pair_share": 0.1,
+ "T_hold": 6000.0,
+ "kappa_fail_pred_PR": 0.06946978889903488,
+ "kappa_fail_pred_LIN": 0.09505709436772344,
+ "records": [
+  {
+   "prep": "PR-hold",
+   "kappa": 0.01,
+   "lam": 0.9909746161538666,
+   "seed_pair_share": 1.3378548175029447e-06,
+   "growth_factor_energy": 3.9238249046721443e-07,
+   "pred_pair_share_linear": 5.249508051753661e-13,
+   "obs_pair_share": 0.00022992317705434914
+  },
+  {
+   "prep": "LIN-hold",
+   "kappa": 0.01,
+   "lam": 0.9907768580992599,
+   "seed_pair_share": 1.0856514264778545e-06,
+   "growth_factor_energy": 2.8529996909990895e-07,
+   "pred_pair_share_linear": 3.0973631842740395e-13,
+   "obs_pair_share": 5.3661932091330375e-05
+  },
+  {
+   "prep": "PR-hold",
+   "kappa": 0.02,
+   "lam": 0.9910732566038207,
+   "seed_pair_share": 1.3377581853242533e-06,
+   "growth_factor_energy": 4.586777003742022e-07,
+   "pred_pair_share_linear": 6.135998481012943e-13,
+   "obs_pair_share": 0.0002605327201307294
+  },
+  {
+   "prep": "LIN-hold",
+   "kappa": 0.02,
+   "lam": 0.9947233212121015,
+   "seed_pair_share": 1.085652369444449e-06,
+   "growth_factor_energy": 0.000183281827173896,
+   "pred_pair_share_linear": 1.9898034994744818e-10,
+   "obs_pair_share": 6.732217803871865e-05
+  },
+  {
+   "prep": "PR-hold",
+   "kappa": 0.03,
+   "lam": 0.9955908796905563,
+   "seed_pair_share": 1.3375976255032721e-06,
+   "growth_factor_energy": 0.00075011782402649,
+   "pred_pair_share_linear": 1.0033558202655144e-09,
+   "obs_pair_share": 0.00030735861283916254
+  },
+  {
+   "prep": "LIN-hold",
+   "kappa": 0.03,
+   "lam": 0.9975470013579044,
+   "seed_pair_share": 1.085650085289675e-06,
+   "growth_factor_energy": 0.018419363204048824,
+   "pred_pair_share_linear": 1.9996983233457108e-08,
+   "obs_pair_share": 9.226502302745809e-05
+  },
+  {
+   "prep": "PR-hold",
+   "kappa": 0.035,
+   "lam": 0.9980370058764221,
+   "seed_pair_share": 1.3374933773177681e-06,
+   "growth_factor_energy": 0.040756487125407546,
+   "pred_pair_share_linear": 5.451153161296947e-08,
+   "obs_pair_share": 0.00034164343947502975
+  },
+  {
+   "prep": "LIN-hold",
+   "kappa": 0.035,
+   "lam": 0.9976712022418687,
+   "seed_pair_share": 1.0856475883307603e-06,
+   "growth_factor_energy": 0.02255330357504027,
+   "pred_pair_share_linear": 2.448493963513398e-08,
+   "obs_pair_share": 0.00010922599063604126
+  },
+  {
+   "prep": "PR-hold",
+   "kappa": 0.04,
+   "lam": 0.9998543015803922,
+   "seed_pair_share": 1.3373731575936405e-06,
+   "growth_factor_energy": 0.7887119604671615,
+   "pred_pair_share_linear": 1.0548022050018384e-06,
+   "obs_pair_share": 0.00038026969342860916
+  },
+  {
+   "prep": "LIN-hold",
+   "kappa": 0.04,
+   "lam": 0.997122591891565,
+   "seed_pair_share": 1.0856444587416391e-06,
+   "growth_factor_energy": 0.009219460786737022,
+   "pred_pair_share_linear": 1.000905651570688e-08,
+   "obs_pair_share": 0.00012929967852367159
+  },
+  {
+   "prep": "PR-hold",
+   "kappa": 0.045,
+   "lam": 1.0013709602558287,
+   "seed_pair_share": 1.3372369747692524e-06,
+   "growth_factor_energy": 9.319932543210715,
+   "pred_pair_share_linear": 1.2462958399136601e-05,
+   "obs_pair_share": 0.00043367713221528596
+  },
+  {
+   "prep": "LIN-hold",
+   "kappa": 0.045,
+   "lam": 0.9956816572604242,
+   "seed_pair_share": 1.085640930763095e-06,
+   "growth_factor_energy": 0.0008775511014929167,
+   "pred_pair_share_linear": 9.527053946169494e-10,
+   "obs_pair_share": 0.0001526553452411159
+  },
+  {
+   "prep": "PR-hold",
+   "kappa": 0.05,
+   "lam": 1.0027020324917177,
+   "seed_pair_share": 1.3370848397948003e-06,
+   "growth_factor_energy": 81.2331622616507,
+   "pred_pair_share_linear": 0.00010861562974864425,
+   "obs_pair_share": 0.00045132952170213927
+  },
+  {
+   "prep": "LIN-hold",
+   "kappa": 0.05,
+   "lam": 0.9907768580992667,
+   "seed_pair_share": 1.085637210630385e-06,
+   "growth_factor_energy": 2.852999691031326e-07,
+   "pred_pair_share_linear": 3.0973226265005985e-13,
+   "obs_pair_share": 0.00017939471096331338
+  },
+  {
+   "prep": "PR-hold",
+   "kappa": 0.06,
+   "lam": 1.0050096162889588,
+   "seed_pair_share": 1.3367327689193792e-06,
+   "growth_factor_energy": 3451.631783846565,
+   "pred_pair_share_linear": 0.004613909311711355,
+   "obs_pair_share": 0.0037778006326817243
+  },
+  {
+   "prep": "LIN-hold",
+   "kappa": 0.06,
+   "lam": 0.9907768580992617,
+   "seed_pair_share": 1.0856297163965735e-06,
+   "growth_factor_energy": 2.852999691007929e-07,
+   "pred_pair_share_linear": 3.0973012454284494e-13,
+   "obs_pair_share": 0.00024366299396445882
+  },
+  {
+   "prep": "PR-hold",
+   "kappa": 0.07,
+   "lam": 1.0070090104232012,
+   "seed_pair_share": 1.3363170793493067e-06,
+   "growth_factor_energy": 88541.31411632468,
+   "pred_pair_share_linear": 0.11831927028167653,
+   "obs_pair_share": 0.11175301214481628
+  },
+  {
+   "prep": "LIN-hold",
+   "kappa": 0.07,
+   "lam": 0.9907768580992617,
+   "seed_pair_share": 1.0856225798195212e-06,
+   "growth_factor_energy": 2.852999691007929e-07,
+   "pred_pair_share_linear": 3.0972808847763246e-13,
+   "obs_pair_share": 0.00032344417196791115
+  },
+  {
+   "prep": "PR-hold",
+   "kappa": 0.08,
+   "lam": 1.0088032878147204,
+   "seed_pair_share": 1.3358379461845697e-06,
+   "growth_factor_energy": 1623831.9387231595,
+   "pred_pair_share_linear": 2.1691763219728535,
+   "obs_pair_share": 0.6018166091036974
+  },
+  {
+   "prep": "LIN-hold",
+   "kappa": 0.08,
+   "lam": 0.9952734476656094,
+   "seed_pair_share": 1.0856159538475405e-06,
+   "growth_factor_energy": 0.00045043984596214475,
+   "pred_pair_share_linear": 4.89004683025133e-10,
+   "obs_pair_share": 0.00042010249532039234
+  },
+  {
+   "prep": "PR-hold",
+   "kappa": 0.09,
+   "lam": 1.0104489757889177,
+   "seed_pair_share": 1.3352955798280517e-06,
+   "growth_factor_energy": 23359790.53281813,
+   "pred_pair_share_linear": 31.192225044181217,
+   "obs_pair_share": 0.415207816196611
+  },
+  {
+   "prep": "LIN-hold",
+   "kappa": 0.09,
+   "lam": 1.0045279383311885,
+   "seed_pair_share": 1.0856097643595366e-06,
+   "growth_factor_energy": 1552.1910812487583,
+   "pred_pair_share_linear": 0.0016850737939554388,
+   "obs_pair_share": 0.0007787914835227266
+  },
+  {
+   "prep": "PR-hold",
+   "kappa": 0.1,
+   "lam": 1.0119810198536197,
+   "seed_pair_share": 1.3346902249546834e-06,
+   "growth_factor_energy": 279129994.1746622,
+   "pred_pair_share_linear": 372.55207471657934,
+   "obs_pair_share": 0.35082506393166435
+  },
+  {
+   "prep": "LIN-hold",
+   "kappa": 0.1,
+   "lam": 1.0089607886664362,
+   "seed_pair_share": 1.0856039000274665e-06,
+   "growth_factor_energy": 1999754.3519833765,
+   "pred_pair_share_linear": 2.1709411236100524,
+   "obs_pair_share": 0.18602352498092176
+  },
+  {
+   "prep": "PR-hold",
+   "kappa": 0.12,
+   "lam": 1.014790652667512,
+   "seed_pair_share": 1.3332917327959961e-06,
+   "growth_factor_energy": 26317181243.907402,
+   "pred_pair_share_linear": 35088.48018299559,
+   "obs_pair_share": 0.5458445333830662
+  },
+  {
+   "prep": "LIN-hold",
+   "kappa": 0.12,
+   "lam": 1.0138395134616471,
+   "seed_pair_share": 1.0855926551032393e-06,
+   "growth_factor_energy": 5105903845.51248,
+   "pred_pair_share_linear": 5542.931712351733,
+   "obs_pair_share": 0.36168518482513995
+  },
+  {
+   "prep": "PR-hold",
+   "kappa": 0.15,
+   "lam": 1.018558428427617,
+   "seed_pair_share": 1.330729846114431e-06,
+   "growth_factor_energy": 11641373644314.088,
+   "pred_pair_share_linear": 15491523.35825868,
+   "obs_pair_share": 0.5749642261983621
+  },
+  {
+   "prep": "LIN-hold",
+   "kappa": 0.15,
+   "lam": 1.0160043637066232,
+   "seed_pair_share": 1.085575621208957e-06,
+   "growth_factor_energy": 163932267099.4592,
+   "pred_pair_share_linear": 177960.87269268808,
+   "obs_pair_share": 0.7283675861105682
+  }
+ ]
+}

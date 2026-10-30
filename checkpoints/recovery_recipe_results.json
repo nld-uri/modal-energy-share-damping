@@ -1,0 +1,130 @@
+{
+ "config": {
+  "N": 24,
+  "j0": 1,
+  "mode_1based": 7,
+  "zeta1": 0.01,
+  "A_fixed": 0.02,
+  "span": 400.0,
+  "dt": 0.05,
+  "edge_trim": 20
+ },
+ "records": [
+  {
+   "mu": 0.0006,
+   "r_env_single_mode": 0.9019445976191804,
+   "gamma_over_ctrue": {
+    "carrier only": 0.9055890427123306,
+    "carrier +/- 1": 0.9086269154824616,
+    "carrier +/- 2": 0.9977689185590098,
+    "carrier +/- 4": 0.9989824199509283,
+    "all modes": 0.999302287491699
+   },
+   "vacuous_correction": {
+    "carrier only": 0.9055890427123306,
+    "carrier +/- 1": 0.9055890427123312,
+    "carrier +/- 2": 0.9055890427123334,
+    "carrier +/- 4": 0.9055890427123315,
+    "all modes": 0.9055890427123309
+   }
+  },
+  {
+   "mu": 0.0008,
+   "r_env_single_mode": 0.807309673581552,
+   "gamma_over_ctrue": {
+    "carrier only": 0.8119614921039665,
+    "carrier +/- 1": 0.8189128179361782,
+    "carrier +/- 2": 0.9964422195822128,
+    "carrier +/- 4": 0.9984906954086956,
+    "all modes": 0.9989304064903647
+   },
+   "vacuous_correction": {
+    "carrier only": 0.8119614921039665,
+    "carrier +/- 1": 0.8119614921039645,
+    "carrier +/- 2": 0.811961492103967,
+    "carrier +/- 4": 0.8119614921039666,
+    "all modes": 0.8119614921039656
+   }
+  },
+  {
+   "mu": 0.001,
+   "r_env_single_mode": 0.7126669570590044,
+   "gamma_over_ctrue": {
+    "carrier only": 0.7182711725013241,
+    "carrier +/- 1": 0.7302732363004162,
+    "carrier +/- 2": 0.9957854586265941,
+    "carrier +/- 4": 0.9983971323171716,
+    "all modes": 0.9986904830687604
+   },
+   "vacuous_correction": {
+    "carrier only": 0.7182711725013241,
+    "carrier +/- 1": 0.7182711725013226,
+    "carrier +/- 2": 0.7182711725013223,
+    "carrier +/- 4": 0.7182711725013233,
+    "all modes": 0.7182711725013231
+   }
+  },
+  {
+   "mu": 0.0013,
+   "r_env_single_mode": 0.5799763083985738,
+   "gamma_over_ctrue": {
+    "carrier only": 0.5868683685181414,
+    "carrier +/- 1": 0.6068919107122238,
+    "carrier +/- 2": 0.9954905758744294,
+    "carrier +/- 4": 0.9986227517918762,
+    "all modes": 0.9985506088974049
+   },
+   "vacuous_correction": {
+    "carrier only": 0.5868683685181414,
+    "carrier +/- 1": 0.5868683685181424,
+    "carrier +/- 2": 0.5868683685181438,
+    "carrier +/- 4": 0.5868683685181424,
+    "all modes": 0.5868683685181426
+   }
+  },
+  {
+   "mu": 0.0016,
+   "r_env_single_mode": 0.45137567962866854,
+   "gamma_over_ctrue": {
+    "carrier only": 0.4593431888464165,
+    "carrier +/- 1": 0.49902135083842764,
+    "carrier +/- 2": 0.9951549550961812,
+    "carrier +/- 4": 0.9992747981788146,
+    "all modes": 0.9987681846579194
+   },
+   "vacuous_correction": {
+    "carrier only": 0.4593431888464165,
+    "carrier +/- 1": 0.45934318884641234,
+    "carrier +/- 2": 0.4593431888464153,
+    "carrier +/- 4": 0.4593431888464148,
+    "all modes": 0.45934318884641523
+   }
+  }
+ ],
+ "gamma_summary": {
+  "carrier only": {
+   "mean_abs_err": 0.30359334706356417,
+   "worst_abs_err": 0.5406568111535834
+  },
+  "carrier +/- 1": {
+   "mean_abs_err": 0.2872547537460585,
+   "worst_abs_err": 0.5009786491615724
+  },
+  "carrier +/- 2": {
+   "mean_abs_err": 0.0038715744523145413,
+   "worst_abs_err": 0.004845044903818763
+  },
+  "carrier +/- 4": {
+   "mean_abs_err": 0.0012464404705027298,
+   "worst_abs_err": 0.0016028676828283572
+  },
+  "all modes": {
+   "mean_abs_err": 0.0011516058787703232,
+   "worst_abs_err": 0.0014493911025951212
+  }
+ },
+ "vacuity_check": {
+  "max_spread_across_subsets": 4.163336342344337e-15,
+  "note": "gamma_S - dln f_S/dt is independent of the subset S to numerical precision, confirming it is identically the single-mode estimate and carries no information"
+ }
+}

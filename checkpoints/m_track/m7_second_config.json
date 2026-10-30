@@ -1,0 +1,64 @@
+{
+ "primary": {
+  "station_1based": 5,
+  "mode_1based": 6,
+  "kappa_c_pred": 0.08072280056227624,
+  "pair_pred": [
+   4,
+   8
+  ],
+  "kappa_bracket": [
+   0.0812536515936135,
+   0.08146379081480923
+  ],
+  "mu_boundary": 0.0006638955009816917,
+  "floquet_pair": [
+   4,
+   8
+  ],
+  "floquet_shares": [
+   0.6243,
+   0.3053
+  ],
+  "kappa_pred_rel_to_bracket_low": -0.006533257532748138,
+  "P7_1": false,
+  "P7_2": true,
+  "P7_3": true,
+  "max_env_err_below": 0.0011296196014405346,
+  "first_departure": {
+   "mu": 0.001,
+   "env_err": 0.0700486255380739
+  }
+ },
+ "secondary": {
+  "station_1based": 10,
+  "mode_1based": 7,
+  "kappa_c_pred": 0.08228635633947878,
+  "pair_pred": [
+   1,
+   14
+  ],
+  "kappa_bracket": [
+   0.09591880269416363,
+   0.09633290193679865
+  ],
+  "mu_boundary": 0.0010429823930731693,
+  "floquet_pair": [
+   14,
+   19
+  ],
+  "floquet_shares": [
+   0.5626,
+   0.4144
+  ],
+  "kappa_pred_rel_to_bracket_low": -0.14212485948299203,
+  "P7_1": false,
+  "P7_2": false,
+  "P7_3": true,
+  "max_env_err_below": 0.00124303982531615,
+  "first_departure": {
+   "mu": 0.0013,
+   "env_err": 0.03673097008459225
+  }
+ }
+}

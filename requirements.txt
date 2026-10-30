@@ -1,0 +1,16 @@
+# Paper 3 needs exactly two third-party packages. Everything else is stdlib.
+#
+# Lower bounds, not pins: the results are not version-sensitive (the numbers in
+# the manuscript were produced with numpy 2.4.6 / scipy 1.17.1, and the audit
+# in code/verification/verify_paper3.py will tell you immediately if your
+# versions disagree with the saved checkpoints).
+#
+#     python3 -m venv ~/venvs/paper3
+#     ~/venvs/paper3/bin/pip install -r requirements.txt
+#
+numpy>=1.24
+scipy>=1.10
+
+# Figures only (code/figures/make_figures.py). They are typeset with real LaTeX
+# (text.usetex=True), so a TeX installation with latex and dvipng on PATH is also needed.
+matplotlib>=3.7

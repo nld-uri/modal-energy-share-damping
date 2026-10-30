@@ -1,0 +1,98 @@
+{
+ "config": {
+  "N": 24,
+  "j0": 1,
+  "mode_1based": 7,
+  "zeta1": 0.01,
+  "kh": 1.0,
+  "alpha": 0.1,
+  "uy": 0.002,
+  "t_settle": 4000.0,
+  "span": 400.0,
+  "dt": 0.05,
+  "rtol": 1e-09,
+  "edge_trim": 20,
+  "basis": "chain + stuck element stiffness"
+ },
+ "records": [
+  {
+   "A": 1e-06,
+   "slip_ratio": 0.008848695549188584,
+   "w_rms": 1.005422419652594e-05,
+   "e_frac": 0.9995584530116228,
+   "gamma_tot_over_c": 1.0248542506959277,
+   "gamma_sub_over_c": 1.0248527691885363,
+   "r_env_over_c": 1.0254113241910163
+  },
+  {
+   "A": 1e-05,
+   "slip_ratio": 0.07021486493827317,
+   "w_rms": 7.869567689252993e-05,
+   "e_frac": 0.9993270916935364,
+   "gamma_tot_over_c": 1.1958870286352763,
+   "gamma_sub_over_c": 1.1958745402368007,
+   "r_env_over_c": 1.196753994925344
+  },
+  {
+   "A": 3e-05,
+   "slip_ratio": 0.1550004999524479,
+   "w_rms": 0.00017062093461281682,
+   "e_frac": 0.998772890743826,
+   "gamma_tot_over_c": 1.4252787012530554,
+   "gamma_sub_over_c": 1.4252334352604121,
+   "r_env_over_c": 1.426307907515096
+  },
+  {
+   "A": 0.0001,
+   "slip_ratio": 0.3154757440851799,
+   "w_rms": 0.00033699016432081456,
+   "e_frac": 0.9968406926321184,
+   "gamma_tot_over_c": 1.8355644344142579,
+   "gamma_sub_over_c": 1.8354096071536108,
+   "r_env_over_c": 1.8356937512649325
+  },
+  {
+   "A": 0.001,
+   "slip_ratio": 0.8205988750564512,
+   "w_rms": 0.0009143515676468273,
+   "e_frac": 0.966537090274386,
+   "gamma_tot_over_c": 3.04553168174498,
+   "gamma_sub_over_c": 3.049714291802746,
+   "r_env_over_c": 3.019811678339522
+  },
+  {
+   "A": 0.005,
+   "slip_ratio": 0.9988565489339643,
+   "w_rms": 0.002257653249626192,
+   "e_frac": 0.8002239439986109,
+   "gamma_tot_over_c": 4.556504002820682,
+   "gamma_sub_over_c": 4.690508895687509,
+   "r_env_over_c": 4.495292120795018
+  },
+  {
+   "A": 0.02,
+   "slip_ratio": 1.0000000125804056,
+   "w_rms": 0.01050592972184648,
+   "e_frac": 0.6509383699086125,
+   "gamma_tot_over_c": 6.0848099309977455,
+   "gamma_sub_over_c": 6.45355207345787,
+   "r_env_over_c": 6.693345611475761
+  },
+  {
+   "A": 0.06,
+   "slip_ratio": 1.0001535568332918,
+   "w_rms": 0.04169741375255484,
+   "e_frac": 0.6329158828376759,
+   "gamma_tot_over_c": 2.3902627550879414,
+   "gamma_sub_over_c": 2.4198967265875773,
+   "r_env_over_c": 2.4786825127374934
+  }
+ ],
+ "summary": {
+  "gamma_tot_min": 1.0248542506959277,
+  "gamma_tot_max": 6.0848099309977455,
+  "single_vs_total_mean_abs_diff": 0.09830873580707009,
+  "single_vs_total_worst": 0.6085356804780151,
+  "note": "for the conservative cubic gamma_tot/c_true is 0.999 at every amplitude and the single-mode estimate departs from it by up to 0.54; here gamma_tot/c_true is amplitude-dependent and the single-mode estimate tracks it"
+ }
+}

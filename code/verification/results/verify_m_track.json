@@ -1,0 +1,530 @@
+[
+ {
+  "pass_": true,
+  "label": "M1 kappa_c (5,9) zeta=0.005",
+  "computed": "0.08006155568784147",
+  "printed": "0.0801"
+ },
+ {
+  "pass_": true,
+  "label": "M1 kappa_c inside Floquet bracket zeta=0.005",
+  "computed": "True",
+  "printed": "Each lies inside the bracket of converged orbits"
+ },
+ {
+  "pass_": true,
+  "label": "M1 first pair is (5,9) zeta=0.005",
+  "computed": "True",
+  "printed": "the first pair to satisfy it is $(5,9)$"
+ },
+ {
+  "pass_": true,
+  "label": "M1 kappa_c (5,9) zeta=0.01",
+  "computed": "0.08366464510633417",
+  "printed": "0.0837"
+ },
+ {
+  "pass_": true,
+  "label": "M1 kappa_c inside Floquet bracket zeta=0.01",
+  "computed": "True",
+  "printed": "Each lies inside the bracket of converged orbits"
+ },
+ {
+  "pass_": true,
+  "label": "M1 first pair is (5,9) zeta=0.01",
+  "computed": "True",
+  "printed": "the first pair to satisfy it is $(5,9)$"
+ },
+ {
+  "pass_": true,
+  "label": "M1 kappa_c (5,9) zeta=0.02",
+  "computed": "0.10099726987765757",
+  "printed": "0.101"
+ },
+ {
+  "pass_": true,
+  "label": "M1 kappa_c inside Floquet bracket zeta=0.02",
+  "computed": "True",
+  "printed": "Each lies inside the bracket of converged orbits"
+ },
+ {
+  "pass_": true,
+  "label": "M1 first pair is (5,9) zeta=0.02",
+  "computed": "True",
+  "printed": "the first pair to satisfy it is $(5,9)$"
+ },
+ {
+  "pass_": true,
+  "label": "M1 mu_c predicted zeta=0.005 (x1e-4)",
+  "computed": "2.978341596937609",
+  "printed": "2.98"
+ },
+ {
+  "pass_": true,
+  "label": "M1 mu_c predicted zeta=0.01 (x1e-4)",
+  "computed": "3.84711813433849",
+  "printed": "3.85"
+ },
+ {
+  "pass_": true,
+  "label": "M1 mu_c predicted zeta=0.02 (x1e-4)",
+  "computed": "8.62960982959303",
+  "printed": "8.63"
+ },
+ {
+  "pass_": true,
+  "label": "M1 worst |mu_c pred / port - 1| (%)",
+  "computed": "0.8560323129605418",
+  "printed": "0.9"
+ },
+ {
+  "pass_": true,
+  "label": "M1 number of converged orbits = 47",
+  "computed": "True",
+  "printed": "$47$ converged orbits"
+ },
+ {
+  "pass_": true,
+  "label": "M1 max |lambda_pred - lambda_Floquet|",
+  "computed": "7.502961252003892e-05",
+  "printed": "7.5\\times10^{-5}"
+ },
+ {
+  "pass_": true,
+  "label": "M1 no side disagreement",
+  "computed": "True",
+  "printed": "never disagree about which side"
+ },
+ {
+  "pass_": true,
+  "label": "P1.4 raw detuning (6,8)",
+  "computed": "0.0033607126875042637",
+  "printed": "0.00336"
+ },
+ {
+  "pass_": true,
+  "label": "P1.4 raw detuning (5,9)",
+  "computed": "0.013429587552402866",
+  "printed": "0.0134"
+ },
+ {
+  "pass_": true,
+  "label": "P1.4 psi product (6,8)",
+  "computed": "0.07224332663728461",
+  "printed": "0.0722"
+ },
+ {
+  "pass_": true,
+  "label": "P1.4 psi product (5,9)",
+  "computed": "0.05862413123468995",
+  "printed": "0.0586"
+ },
+ {
+  "pass_": true,
+  "label": "P1.4 (6,8) exact tuning kappa",
+  "computed": "0.025397622129366564",
+  "printed": "0.0254"
+ },
+ {
+  "pass_": true,
+  "label": "P1.4 shifted detuning (6,8) at kappa_c",
+  "computed": "-0.007698956237852439",
+  "printed": "-0.00770"
+ },
+ {
+  "pass_": true,
+  "label": "P1.4 shifted detuning (5,9) at kappa_c",
+  "computed": "0.0036442123715463293",
+  "printed": "0.00364"
+ },
+ {
+  "pass_": true,
+  "label": "P1.4 (6,8) margin negative at kappa_c",
+  "computed": "True",
+  "printed": "the pair the stiffening tunes \\emph{in}"
+ },
+ {
+  "pass_": true,
+  "label": "M1 kappa_c ratio 0.020/0.005",
+  "computed": "1.261495220895333",
+  "printed": "1.26"
+ },
+ {
+  "pass_": true,
+  "label": "M1 mu ratio 0.020/0.005 (port)",
+  "computed": "2.9452775648051888",
+  "printed": "2.95"
+ },
+ {
+  "pass_": true,
+  "label": "M3 predicted window lower kappa",
+  "computed": "0.02121689478616987",
+  "printed": "0.0212"
+ },
+ {
+  "pass_": true,
+  "label": "M3 predicted window upper kappa",
+  "computed": "0.045691540827284424",
+  "printed": "0.0457"
+ },
+ {
+  "pass_": true,
+  "label": "M3 no window predicted at 0.010 / 0.020",
+  "computed": "True",
+  "printed": "at $\\zeta_{1}=0.005$ only"
+ },
+ {
+  "pass_": true,
+  "label": "M3 Floquet lower threshold zeta=0.005 (x1e-6)",
+  "computed": "9.599105398844157",
+  "printed": "9.6"
+ },
+ {
+  "pass_": true,
+  "label": "M3 unstable at 6e-5, stable at 7e-5",
+  "computed": "True",
+  "printed": "between $6\\times10^{-5}$ and $7\\times10^{-5}$"
+ },
+ {
+  "pass_": true,
+  "label": "M3 largest multiplier zeta=0.005",
+  "computed": "1.0023171276012937",
+  "printed": "1.0023"
+ },
+ {
+  "pass_": true,
+  "label": "M3 leading pair (6,8) at every unstable record",
+  "computed": "True",
+  "printed": "between modes $8$ and $6$"
+ },
+ {
+  "pass_": true,
+  "label": "M3 eigenvector share mode 8",
+  "computed": "0.5665947624062303",
+  "printed": "0.567"
+ },
+ {
+  "pass_": true,
+  "label": "M3 eigenvector share mode 6",
+  "computed": "0.4328165631967323",
+  "printed": "0.433"
+ },
+ {
+  "pass_": true,
+  "label": "M3 all stable at zeta=0.010",
+  "computed": "True",
+  "printed": "stay stable throughout"
+ },
+ {
+  "pass_": true,
+  "label": "M3 largest multiplier zeta=0.010",
+  "computed": "0.9976766618127018",
+  "printed": "0.9977"
+ },
+ {
+  "pass_": true,
+  "label": "M3b min share in window",
+  "computed": "0.9984324523719335",
+  "printed": "0.998"
+ },
+ {
+  "pass_": true,
+  "label": "M3b min share >= printed bound",
+  "computed": "True",
+  "printed": "share of at least $0.998$"
+ },
+ {
+  "pass_": true,
+  "label": "M3b max |r_env - 1| in window (%)",
+  "computed": "0.17315694711096397",
+  "printed": "0.17"
+ },
+ {
+  "pass_": true,
+  "label": "M3b Q1 holds",
+  "computed": "True",
+  "printed": "The window is silent in identification"
+ },
+ {
+  "pass_": true,
+  "label": "M2 Floquet onset kappa zeta=0.005",
+  "computed": "0.02965512883556815",
+  "printed": "0.0297"
+ },
+ {
+  "pass_": true,
+  "label": "M2 averaged edge kappa zeta=0.005",
+  "computed": "0.029687966078853458",
+  "printed": "0.0297"
+ },
+ {
+  "pass_": true,
+  "label": "M2 onset pair (6,8) zeta=0.005",
+  "computed": "True",
+  "printed": "is the $(6,8)$ pair"
+ },
+ {
+  "pass_": true,
+  "label": "M2 Floquet onset kappa zeta=0.01",
+  "computed": "0.04044782567410233",
+  "printed": "0.0404"
+ },
+ {
+  "pass_": true,
+  "label": "M2 averaged edge kappa zeta=0.01",
+  "computed": "0.040462887313230264",
+  "printed": "0.0405"
+ },
+ {
+  "pass_": true,
+  "label": "M2 onset pair (6,8) zeta=0.01",
+  "computed": "True",
+  "printed": "is the $(6,8)$ pair"
+ },
+ {
+  "pass_": true,
+  "label": "M2 Floquet onset kappa zeta=0.02",
+  "computed": "0.08271154302242761",
+  "printed": "0.0827"
+ },
+ {
+  "pass_": true,
+  "label": "M2 averaged edge kappa zeta=0.02",
+  "computed": "0.08305316426409112",
+  "printed": "0.0831"
+ },
+ {
+  "pass_": true,
+  "label": "M2 onset pair (6,8) zeta=0.02",
+  "computed": "True",
+  "printed": "is the $(6,8)$ pair"
+ },
+ {
+  "pass_": true,
+  "label": "M5 35 cells",
+  "computed": "True",
+  "printed": "of the $35$ cells"
+ },
+ {
+  "pass_": true,
+  "label": "M5 25 cells with share >= 0.99",
+  "computed": "True",
+  "printed": "the $25$ with a share of at least $0.99$"
+ },
+ {
+  "pass_": true,
+  "label": "M5 no high-share cell outside 0.5 %",
+  "computed": "True",
+  "printed": "all lie within $0.5\\,\\%$"
+ },
+ {
+  "pass_": true,
+  "label": "M5 no low-share cell inside 0.5 %",
+  "computed": "True",
+  "printed": "the $10$ below it all lie outside"
+ },
+ {
+  "pass_": true,
+  "label": "M5 worst envelope error, high share (%)",
+  "computed": "0.475745782083159",
+  "printed": "0.48"
+ },
+ {
+  "pass_": true,
+  "label": "M5 worst GCVD error, high share (%)",
+  "computed": "0.3469950522295484",
+  "printed": "0.35"
+ },
+ {
+  "pass_": true,
+  "label": "M6 envelope ratio at mu=1.6e-3",
+  "computed": "0.45137567962866854",
+  "printed": "0.451"
+ },
+ {
+  "pass_": true,
+  "label": "M6 |c err| model acceleration",
+  "computed": "2.042810365310288e-14",
+  "printed": "2.0\\times10^{-14}"
+ },
+ {
+  "pass_": true,
+  "label": "M6 |k3 err| model acceleration",
+  "computed": "9.992007221626409e-15",
+  "printed": "1.0\\times10^{-14}"
+ },
+ {
+  "pass_": true,
+  "label": "M6 |c err| differenced acceleration",
+  "computed": "4.5797462500107855e-07",
+  "printed": "4.6\\times10^{-7}"
+ },
+ {
+  "pass_": true,
+  "label": "M6 |k3 err| differenced acceleration",
+  "computed": "2.3031824502028897e-06",
+  "printed": "2.3\\times10^{-6}"
+ },
+ {
+  "pass_": true,
+  "label": "M7 primary: station 5, mode 6",
+  "computed": "True",
+  "printed": "Tracking mode $6$ with the spring at mass $5$"
+ },
+ {
+  "pass_": true,
+  "label": "M7 primary: predicted pair (4,8) = Floquet pair",
+  "computed": "True",
+  "printed": "it names the right pair, $(4,8)$"
+ },
+ {
+  "pass_": true,
+  "label": "M7 primary predicted kappa_c",
+  "computed": "0.08072280056227624",
+  "printed": "0.0807"
+ },
+ {
+  "pass_": true,
+  "label": "M7 primary offset below bracket (%)",
+  "computed": "0.6533257532748138",
+  "printed": "0.7"
+ },
+ {
+  "pass_": true,
+  "label": "M7 primary P7.1 fails (prediction below the bracket)",
+  "computed": "True",
+  "printed": "below the converged-orbit bracket"
+ },
+ {
+  "pass_": true,
+  "label": "M7 primary bracket low",
+  "computed": "0.0812536515936135",
+  "printed": "0.0813"
+ },
+ {
+  "pass_": true,
+  "label": "M7 primary bracket high",
+  "computed": "0.08146379081480923",
+  "printed": "0.0815"
+ },
+ {
+  "pass_": true,
+  "label": "M7 primary share mode 8",
+  "computed": "0.6243",
+  "printed": "0.624"
+ },
+ {
+  "pass_": true,
+  "label": "M7 primary share mode 4",
+  "computed": "0.3053",
+  "printed": "0.305"
+ },
+ {
+  "pass_": true,
+  "label": "M7 secondary: station 10, mode 7",
+  "computed": "True",
+  "printed": "Tracking mode $7$ with the spring at mass $10$"
+ },
+ {
+  "pass_": true,
+  "label": "M7 secondary: predicted (1,14), Floquet (14,19)",
+  "computed": "True",
+  "printed": "$(1,14)$ pair"
+ },
+ {
+  "pass_": true,
+  "label": "M7 secondary predicted kappa_c",
+  "computed": "0.08228635633947878",
+  "printed": "0.0823"
+ },
+ {
+  "pass_": true,
+  "label": "M7 secondary offset (%)",
+  "computed": "14.212485948299204",
+  "printed": "14"
+ },
+ {
+  "pass_": true,
+  "label": "M7 secondary bracket low",
+  "computed": "0.09591880269416363",
+  "printed": "0.0959"
+ },
+ {
+  "pass_": true,
+  "label": "M7 secondary bracket high",
+  "computed": "0.09633290193679865",
+  "printed": "0.0963"
+ },
+ {
+  "pass_": true,
+  "label": "M7 P7.3 in both",
+  "computed": "True",
+  "printed": "departs only above it"
+ },
+ {
+  "pass_": true,
+  "label": "M7 max envelope error below boundary (%)",
+  "computed": "0.12430398253161501",
+  "printed": "0.12"
+ },
+ {
+  "pass_": true,
+  "label": "M7 primary mu=1.3e-3 share",
+  "computed": "0.5545819758705286",
+  "printed": "0.555"
+ },
+ {
+  "pass_": true,
+  "label": "M7 primary mu=1.3e-3 |r_env - 1| (%)",
+  "computed": "0.28327744961882395",
+  "printed": "0.28"
+ },
+ {
+  "pass_": true,
+  "label": "cubic fitted gamma_tot/c stays within the printed 0.3 %",
+  "computed": "True",
+  "printed": "to within\n$0.3\\,\\%$"
+ },
+ {
+  "pass_": true,
+  "label": "cbar/c_true is unity identically, so the caption must say so",
+  "computed": "True",
+  "printed": "unity\n\\emph{identically}"
+ },
+ {
+  "pass_": true,
+  "label": "M4 seeded hold: release pair-energy share",
+  "computed": "1.3378548175029448",
+  "printed": "1.3"
+ },
+ {
+  "pass_": true,
+  "label": "M4 seeded failure kappa, phase-resonant",
+  "computed": "0.06946978889903488",
+  "printed": "0.0695"
+ },
+ {
+  "pass_": true,
+  "label": "M4 seeded failure kappa, omega_lin",
+  "computed": "0.09505709436772344",
+  "printed": "0.0951"
+ },
+ {
+  "pass_": true,
+  "label": "M4 budget is an upper bound once it predicts at least 1e-3",
+  "computed": "True",
+  "printed": "ratio at most $0.95$"
+ },
+ {
+  "pass_": false,
+  "label": "M4 observed floor below that regime stays under 5e-4",
+  "computed": "True",
+  "printed": "at most\\n$5\\times10^{-4}$"
+ },
+ {
+  "pass_": true,
+  "label": "M4 record count",
+  "computed": "True",
+  "printed": "$28$ records"
+ }
+]

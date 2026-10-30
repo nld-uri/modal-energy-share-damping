@@ -1,0 +1,25 @@
+{
+ "n_cells": 35,
+ "tau": 0.005,
+ "share_threshold": 0.99,
+ "estimators": {
+  "r_env": {
+   "n_share_hi": 25,
+   "n_share_lo": 10,
+   "N1_hi_share_but_error": 0,
+   "N2_lo_share_but_accurate": 0,
+   "N1_cells": [],
+   "N2_cells": [],
+   "max_err_hi_share": 0.00475745782083159
+  },
+  "r_gcvd": {
+   "n_share_hi": 25,
+   "n_share_lo": 10,
+   "N1_hi_share_but_error": 0,
+   "N2_lo_share_but_accurate": 0,
+   "N1_cells": [],
+   "N2_cells": [],
+   "max_err_hi_share": 0.003469950522295484
+  }
+ }
+}

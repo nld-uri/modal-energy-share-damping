@@ -1,0 +1,106 @@
+{
+ "date": "2026-10-06",
+ "machine": "darwin, 10 cores, 64 GiB",
+ "python": "3.11.16",
+ "numpy": "2.4.6",
+ "scipy": "1.17.1",
+ "worker_cap": 2,
+ "threads": "OMP/OPENBLAS/MKL/VECLIB threads = 1",
+ "note": "Ten-stage pipeline of run_paper3.py followed by verify_paper3 and discipline. Wall seconds are for at most 2 worker processes: the ERA stage (Pool of 8 in the shipped code) was limited to 2 in the timing copy; the other nine stages are serial. CPU seconds are user+sys of each stage's process tree. A further single-process job ran on the machine meanwhile.",
+ "old_pipeline": {
+  "stages": [
+   {
+    "stage": "bias_map",
+    "rc": 0,
+    "wall_s": 164.63688397407532,
+    "cpu_s": 129.873432
+   },
+   {
+    "stage": "era_benchmark",
+    "rc": 0,
+    "wall_s": 125.92967510223389,
+    "cpu_s": 152.67486
+   },
+   {
+    "stage": "onset_mechanism",
+    "rc": 0,
+    "wall_s": 372.58666491508484,
+    "cpu_s": 345.38120499999997
+   },
+   {
+    "stage": "share_law",
+    "rc": 0,
+    "wall_s": 48.169203758239746,
+    "cpu_s": 27.124811000000022
+   },
+   {
+    "stage": "bandwidth_axis",
+    "rc": 0,
+    "wall_s": 150.03035688400269,
+    "cpu_s": 128.46666600000003
+   },
+   {
+    "stage": "recovery_recipe",
+    "rc": 0,
+    "wall_s": 13.374727010726929,
+    "cpu_s": 13.35790899999995
+   },
+   {
+    "stage": "nonuniform_damping",
+    "rc": 0,
+    "wall_s": 43.35810828208923,
+    "cpu_s": 43.33218700000009
+   },
+   {
+    "stage": "friction_boundary",
+    "rc": 0,
+    "wall_s": 39.828299045562744,
+    "cpu_s": 39.80480299999999
+   },
+   {
+    "stage": "noise_sensing",
+    "rc": 0,
+    "wall_s": 18.280835151672363,
+    "cpu_s": 18.272166999999968
+   },
+   {
+    "stage": "second_configuration",
+    "rc": 0,
+    "wall_s": 31.431941032409668,
+    "cpu_s": 31.408473999999956
+   }
+  ],
+  "audits": [
+   {
+    "stage": "verify_paper3",
+    "rc": 0,
+    "wall_s": 0.157196044921875,
+    "cpu_s": 0.1521259999999529
+   },
+   {
+    "stage": "discipline",
+    "rc": 0,
+    "wall_s": 0.1813497543334961,
+    "cpu_s": 0.17734300000006442
+   }
+  ],
+  "total_wall_s": 1007.9783623218536,
+  "total_cpu_s": 930.025983,
+  "verify_paper3_after_regeneration": "161 of 161 checks passed"
+ },
+ "reproducibility": {
+  "statement": "each of the ten regenerated JSONs equals the stored one to |difference| <= 1e-12 on every number (19,476 numbers compared)",
+  "files_compared": [
+   "bias_map_results",
+   "era_benchmark_results",
+   "onset_mechanism_results",
+   "share_law_results",
+   "bandwidth_axis_results",
+   "recovery_recipe_results",
+   "nonuniform_damping_results",
+   "friction_boundary_results",
+   "noise_sensing_results",
+   "second_configuration_results"
+  ]
+ }
+}

@@ -1,0 +1,1133 @@
+{
+ "n_pass": 161,
+ "n_total": 161,
+ "checks": [
+  {
+   "label": "diagonal readout, worst error on the single-mode records (pct)",
+   "computed": "128",
+   "printed": "the same records give errors up to $128\\,\\%$",
+   "source": "readout_final_check",
+   "pass_": true
+  },
+  {
+   "label": "eigenvalue readout, worst error on the single-mode records (pct)",
+   "computed": "0.35",
+   "printed": "worst case of\n$0.35\\,\\%$",
+   "source": "readout_final_check",
+   "pass_": true
+  },
+  {
+   "label": "shape convention leaves tracked damping unchanged",
+   "computed": "0.0e+00",
+   "printed": "identical under either convention",
+   "source": "readout_final_check",
+   "pass_": true
+  },
+  {
+   "label": "ERA records are bias_map's records",
+   "computed": "0.0e+00",
+   "printed": "given to an independent realization",
+   "source": "era_benchmark",
+   "pass_": true
+  },
+  {
+   "label": "ERA single-mode grid cell count",
+   "computed": 23,
+   "printed": "over the $23$ single-mode cells",
+   "source": "era_benchmark",
+   "pass_": true
+  },
+  {
+   "label": "ERA median error (pct)",
+   "computed": "0.005",
+   "printed": "returns a median error of $0.005\\,\\%$",
+   "source": "era_benchmark",
+   "pass_": true
+  },
+  {
+   "label": "ERA worst error (pct)",
+   "computed": "0.35",
+   "printed": "and a worst case of $0.35\\,\\%$ on them",
+   "source": "era_benchmark",
+   "pass_": true
+  },
+  {
+   "label": "ERA vs GCVD, max error difference",
+   "computed": "9.1e-04",
+   "printed": "agree cell by cell to $9.1\\times10^{-4}$ in error",
+   "source": "era_benchmark",
+   "pass_": true
+  },
+  {
+   "label": "ERA vs GCVD error correlation",
+   "computed": "0.963",
+   "printed": "with a correlation of $0.963$",
+   "source": "era_benchmark",
+   "pass_": true
+  },
+  {
+   "label": "ERA on the linear column",
+   "computed": "2.9e-06",
+   "printed": "the realization algorithm to $2.9\\times10^{-6}$",
+   "source": "era_benchmark",
+   "pass_": true
+  },
+  {
+   "label": "ERA low-order (6-9) worst error (pct)",
+   "computed": "0.54",
+   "printed": "at orders $6$ to $9$ the worst error on the same cells is $0.54\\,\\%$",
+   "source": "era_benchmark",
+   "pass_": true
+  },
+  {
+   "label": "order 12: second significant pole from mu",
+   "computed": "1.8e-05",
+   "printed": "every cell from $\\mu=1.8\\times10^{-5}$ up",
+   "source": "era_benchmark",
+   "pass_": true
+  },
+  {
+   "label": "order-12 pole pair at mu 4e-4",
+   "computed": "0.8524 0.8553",
+   "printed": "$0.8524$ and $0.8553$ at $\\mu=4\\times10^{-4}$",
+   "source": "era_benchmark",
+   "pass_": true
+  },
+  {
+   "label": "orders 10-16 depart from mu",
+   "computed": "9e-06",
+   "printed": "cell from $\\mu=9\\times10^{-6}$ up",
+   "source": "era_benchmark",
+   "pass_": true
+  },
+  {
+   "label": "orders 10-16 lowest value",
+   "computed": "0.46",
+   "printed": "falling with $\\mu$ to $0.46$",
+   "source": "era_benchmark",
+   "pass_": true
+  },
+  {
+   "label": "linear column, all sixteen settings",
+   "computed": "2.9e-05",
+   "printed": "all sixteen settings return the true value to $2.9\\times10^{-5}$",
+   "source": "era_benchmark",
+   "pass_": true
+  },
+  {
+   "label": "300-row Hankel, cell nearest onset",
+   "computed": "1.041",
+   "printed": "moves the cell nearest the onset to $1.041$",
+   "source": "era_benchmark",
+   "pass_": true
+  },
+  {
+   "label": "above onset: smallest spread across settings",
+   "computed": "2.40",
+   "printed": "spans more than $2.3$ at every $\\mu$ from $5\\times10^{-4}$ to $1.6\\times10^{-3}$",
+   "source": "era_benchmark",
+   "pass_": true
+  },
+  {
+   "label": "above onset: range at mu 8e-4",
+   "computed": "-0.58 2.93",
+   "printed": "from $-0.58$ to $2.93$ of the true value",
+   "source": "era_benchmark",
+   "pass_": true
+  },
+  {
+   "label": "mu 5e-4: low-order ERA, GCVD, envelope",
+   "computed": "0.997 1.000 0.994 0.947",
+   "printed": "$0.997$ to $1.000$ at $\\mu=5\\times10^{-4}$ against the decomposition's $0.994$ and the envelope's $0.947$",
+   "source": "era_benchmark",
+   "pass_": true
+  },
+  {
+   "label": "mu 1.6e-3: low-order ERA, GCVD, envelope",
+   "computed": "0.494 0.517 0.866 0.451",
+   "printed": "where it reads $0.494$ to $0.517$ against $0.866$ and $0.451$",
+   "source": "era_benchmark",
+   "pass_": true
+  },
+  {
+   "label": "mu 2e-3: stable across all settings",
+   "computed": "1.66 1.96",
+   "printed": "settings ($1.66$ to $1.96$)",
+   "source": "era_benchmark",
+   "pass_": true
+  },
+  {
+   "label": "ERA readout: dominant and nearest selection agree at order 8",
+   "computed": "0.0e+00",
+   "printed": "These figures are for a realization of order $8$",
+   "source": "era_benchmark",
+   "pass_": true
+  },
+  {
+   "label": "single-mode envelope lower bound",
+   "computed": "0.9952",
+   "printed": "[0.9952,\\ 1.0006]",
+   "source": "bias_map",
+   "pass_": true
+  },
+  {
+   "label": "single-mode cell count",
+   "computed": 25,
+   "printed": "$25$ single-mode cells",
+   "source": "bias_map",
+   "pass_": true
+  },
+  {
+   "label": "max GCVD error (pct)",
+   "computed": "0.35",
+   "printed": "worst case of\n$0.35\\,\\%$",
+   "source": "bias_map",
+   "pass_": true
+  },
+  {
+   "label": "GCVD upper bound",
+   "computed": "1.0035",
+   "printed": "$[1.0000,\\ 1.0035]$",
+   "source": "bias_map",
+   "pass_": true
+  },
+  {
+   "label": "GCVD vs envelope, below onset",
+   "computed": "8.2e-03",
+   "printed": "$8.2\\times10^{-3}$",
+   "source": "bias_map",
+   "pass_": true
+  },
+  {
+   "label": "mu span (fold)",
+   "computed": "800",
+   "printed": "$800$-fold",
+   "source": "bias_map",
+   "pass_": true
+  },
+  {
+   "label": "k3 upper",
+   "computed": "4",
+   "printed": "$k_{3}$ from $0$ to $4$",
+   "source": "bias_map",
+   "pass_": true
+  },
+  {
+   "label": "carrier share at mu=4.0e-04",
+   "computed": "0.99498",
+   "printed": "0.99498",
+   "source": "onset_mechanism",
+   "pass_": true
+  },
+  {
+   "label": "carrier share at mu=1.6e-03",
+   "computed": "0.44617",
+   "printed": "0.44617",
+   "source": "onset_mechanism",
+   "pass_": true
+  },
+  {
+   "label": "k=1 detuning",
+   "computed": "-0.0020",
+   "printed": "$-0.0020$",
+   "source": "onset_mechanism",
+   "pass_": true
+  },
+  {
+   "label": "k=2 detuning",
+   "computed": "-0.0079",
+   "printed": "$-0.0079$",
+   "source": "onset_mechanism",
+   "pass_": true
+  },
+  {
+   "label": "third harmonic",
+   "computed": "2.555",
+   "printed": "$3\\omega_{7}=2.555$",
+   "source": "onset_mechanism",
+   "pass_": true
+  },
+  {
+   "label": "band edge",
+   "computed": "1.996",
+   "printed": "$\\omega_{24}=1.996$",
+   "source": "onset_mechanism",
+   "pass_": true
+  },
+  {
+   "label": "Floquet multiplier at mu=3.0e-04",
+   "computed": "0.990777",
+   "printed": "$0.990777$",
+   "source": "onset_mechanism",
+   "pass_": true
+  },
+  {
+   "label": "Floquet multiplier at mu=5.0e-04",
+   "computed": "1.005727",
+   "printed": "$1.005727$",
+   "source": "onset_mechanism",
+   "pass_": true
+  },
+  {
+   "label": "Floquet boundary bracket (k3 wpeak^2)",
+   "computed": "0.08328 0.08490",
+   "printed": "crossing between $0.08328$ and $0.08490$",
+   "source": "onset_mechanism",
+   "pass_": true
+  },
+  {
+   "label": "single-harmonic crossing bracket",
+   "computed": "0.0830 0.0840",
+   "printed": "between $0.0830$ and $0.0840$",
+   "source": "onset_mechanism",
+   "pass_": true
+  },
+  {
+   "label": "brackets overlap",
+   "computed": "True",
+   "printed": "the two brackets overlap",
+   "source": "onset_mechanism",
+   "pass_": true
+  },
+  {
+   "label": "crest factor range",
+   "computed": "1.4182 1.4271",
+   "printed": "stays between $1.4182$ and $1.4271$",
+   "source": "onset_mechanism",
+   "pass_": true
+  },
+  {
+   "label": "share-law mean abs err",
+   "computed": "0.0057",
+   "printed": "$0.0057$",
+   "source": "share_law",
+   "pass_": true
+  },
+  {
+   "label": "share-law worst",
+   "computed": "0.0092",
+   "printed": "$0.0092$",
+   "source": "share_law",
+   "pass_": true
+  },
+  {
+   "label": "share proxy mean abs err",
+   "computed": "0.0359",
+   "printed": "$0.0359$",
+   "source": "share_law",
+   "pass_": true
+  },
+  {
+   "label": "cbar over ctrue is unity",
+   "computed": "1.000000",
+   "printed": "$\\bar c/\\ctr = 1.000000$",
+   "source": "share_law",
+   "pass_": true
+  },
+  {
+   "label": "converged threshold at zeta1=0.005",
+   "computed": "2.96e-04",
+   "printed": "2.96\\times10^{-4}",
+   "source": "onset_mechanism",
+   "pass_": true
+  },
+  {
+   "label": "converged threshold at zeta1=0.010",
+   "computed": "3.85e-04",
+   "printed": "3.85\\times10^{-4}",
+   "source": "onset_mechanism",
+   "pass_": true
+  },
+  {
+   "label": "converged threshold at zeta1=0.020",
+   "computed": "8.70e-04",
+   "printed": "8.70\\times10^{-4}",
+   "source": "onset_mechanism",
+   "pass_": true
+  },
+  {
+   "label": "threshold range over 4x damping",
+   "computed": "2.95",
+   "printed": "moves the threshold by a factor of $2.95$",
+   "source": "onset_mechanism",
+   "pass_": true
+  },
+  {
+   "label": "fitted exponent in zeta",
+   "computed": "0.779",
+   "printed": "a fitted exponent of $0.779$",
+   "source": "onset_mechanism",
+   "pass_": true
+  },
+  {
+   "label": "local exponent, lower interval",
+   "computed": "0.381",
+   "printed": "the local exponent is $0.381$ between",
+   "source": "onset_mechanism",
+   "pass_": true
+  },
+  {
+   "label": "local exponent, upper interval",
+   "computed": "1.177",
+   "printed": "$1.177$ between the second two",
+   "source": "onset_mechanism",
+   "pass_": true
+  },
+  {
+   "label": "unstable eigenvector pair",
+   "computed": "(5, 9)",
+   "printed": "on mode $9$ and",
+   "source": "onset_mechanism",
+   "pass_": true
+  },
+  {
+   "label": "mode 9 share range",
+   "computed": "0.630 0.631",
+   "printed": "$0.630$ to $0.631$ on mode $9$",
+   "source": "onset_mechanism",
+   "pass_": true
+  },
+  {
+   "label": "mode 5 share range",
+   "computed": "0.359 0.361",
+   "printed": "$0.359$ to $0.361$ on mode $5$",
+   "source": "onset_mechanism",
+   "pass_": true
+  },
+  {
+   "label": "pair total range",
+   "computed": "0.989 0.991",
+   "printed": "accounts for $0.989$ to $0.991$ of the eigenvector",
+   "source": "onset_mechanism",
+   "pass_": true
+  },
+  {
+   "label": "participation ratio range",
+   "computed": "1.896 1.899",
+   "printed": "participation ratio of $1.896$ to $1.899$",
+   "source": "onset_mechanism",
+   "pass_": true
+  },
+  {
+   "label": "largest third-mode share",
+   "computed": "0.0040",
+   "printed": "any third mode is $0.0040$, on mode $6$",
+   "source": "onset_mechanism",
+   "pass_": true
+  },
+  {
+   "label": "mode 9 share across all damping",
+   "computed": "0.630 0.631",
+   "printed": "mode $9$ holds $0.630$ to $0.631$ at all three",
+   "source": "onset_mechanism",
+   "pass_": true
+  },
+  {
+   "label": "stable amplitudes below onset",
+   "computed": 8,
+   "printed": "over the eight stable amplitudes",
+   "source": "onset_mechanism",
+   "pass_": true
+  },
+  {
+   "label": "below-onset (6,8) case",
+   "computed": "1e-04",
+   "printed": "the $(6,8)$ pair at $\\mu=1\\times10^{-4}$",
+   "source": "onset_mechanism",
+   "pass_": true
+  },
+  {
+   "label": "growth cases straddle the boundary",
+   "computed": "True",
+   "printed": "above the boundary ($5\\times10^{-4}$) it grows and saturates, below it ($3\\times10^{-4}$) decays",
+   "source": "onset_mechanism",
+   "pass_": true
+  },
+  {
+   "label": "sideband growth factor above onset",
+   "computed": "87",
+   "printed": "grows by a factor of $87$",
+   "source": "onset_mechanism",
+   "pass_": true
+  },
+  {
+   "label": "sideband slope at mu=5e-04",
+   "computed": "1.34e-03",
+   "printed": "slopes are $+1.34\\times10^{-3}$",
+   "source": "onset_mechanism",
+   "pass_": true
+  },
+  {
+   "label": "sideband slope at mu=3e-04",
+   "computed": "-6.21e-04",
+   "printed": "against $-6.21\\times10^{-4}$",
+   "source": "onset_mechanism",
+   "pass_": true
+  },
+  {
+   "label": "below-onset sideband decays",
+   "computed": "-6.21e-04",
+   "printed": "\\emph{decays}",
+   "source": "onset_mechanism",
+   "pass_": true
+  },
+  {
+   "label": "Newton residual, converged solves",
+   "computed": "4e-12",
+   "printed": "is at most $4\\times10^{-12}$",
+   "source": "onset_mechanism",
+   "pass_": true
+  },
+  {
+   "label": "Newton solves attempted",
+   "computed": 48,
+   "printed": "One Newton solve of the $48$",
+   "source": "onset_mechanism",
+   "pass_": true
+  },
+  {
+   "label": "non-converged residual",
+   "computed": "6e-03",
+   "printed": "(residual $6\\times10^{-3}$)",
+   "source": "onset_mechanism",
+   "pass_": true
+  },
+  {
+   "label": "probe return residuals",
+   "computed": "3.0e-02 1.1e-02 2.4e-03",
+   "printed": "residuals of $3.0\\times10^{-2}$, $1.1\\times10^{-2}$ and $2.4\\times10^{-3}$",
+   "source": "onset_mechanism",
+   "pass_": true
+  },
+  {
+   "label": "probe-time multiplier spread",
+   "computed": "1.8e-02",
+   "printed": "largest multiplier by $1.8\\times10^{-2}$",
+   "source": "onset_mechanism",
+   "pass_": true
+  },
+  {
+   "label": "numerical multiplier spread",
+   "computed": "3.3e-06",
+   "printed": "moves it by $3.3\\times10^{-6}$",
+   "source": "onset_mechanism",
+   "pass_": true
+  },
+  {
+   "label": "crossing margin",
+   "computed": "1.1e-03",
+   "printed": "unstable amplitude is\n$1.1\\times10^{-3}$",
+   "source": "onset_mechanism",
+   "pass_": true
+  },
+  {
+   "label": "transient error over margin",
+   "computed": "17",
+   "printed": "transient error is $17$ times that margin",
+   "source": "onset_mechanism",
+   "pass_": true
+  },
+  {
+   "label": "margin over numerical error",
+   "computed": "332",
+   "printed": "smaller than it by a factor of\n$332$",
+   "source": "onset_mechanism",
+   "pass_": true
+  },
+  {
+   "label": "probed sweep thresholds",
+   "computed": "1.57e-04 3.05e-04 8.51e-04",
+   "printed": "thresholds at $1.57$, $3.05$ and $8.51\\times10^{-4}$",
+   "source": "onset_mechanism",
+   "pass_": true
+  },
+  {
+   "label": "probed sweep shortfall",
+   "computed": "47 21 2",
+   "printed": "low by $47\\,\\%$, $21\\,\\%$ and $2\\,\\%$",
+   "source": "onset_mechanism",
+   "pass_": true
+  },
+  {
+   "label": "pooled record count",
+   "computed": 103,
+   "printed": "$103$ records",
+   "source": "share_law+bandwidth",
+   "pass_": true
+  },
+  {
+   "label": "pooled law mean abs err",
+   "computed": "0.0017",
+   "printed": "$0.0017$",
+   "source": "share_law+bandwidth",
+   "pass_": true
+  },
+  {
+   "label": "pooled law worst",
+   "computed": "0.0161",
+   "printed": "$0.0161$",
+   "source": "share_law+bandwidth",
+   "pass_": true
+  },
+  {
+   "label": "recipe carrier only",
+   "computed": "0.3036",
+   "printed": "0.304",
+   "source": "recovery_recipe",
+   "pass_": true
+  },
+  {
+   "label": "recipe carrier +/- 1",
+   "computed": "0.2873",
+   "printed": "0.287",
+   "source": "recovery_recipe",
+   "pass_": true
+  },
+  {
+   "label": "recipe carrier +/- 2",
+   "computed": "0.0039",
+   "printed": "0.0039",
+   "source": "recovery_recipe",
+   "pass_": true
+  },
+  {
+   "label": "recipe carrier +/- 4",
+   "computed": "0.0012",
+   "printed": "0.0012",
+   "source": "recovery_recipe",
+   "pass_": true
+  },
+  {
+   "label": "vacuity check",
+   "computed": "4.2e-15",
+   "printed": "$4\\times10^{-15}$",
+   "source": "recovery_recipe",
+   "pass_": true
+  },
+  {
+   "label": "friction table row count",
+   "computed": 8,
+   "printed": "8 rows",
+   "source": "friction_boundary",
+   "pass_": true
+  },
+  {
+   "label": "friction gamma at A=1e-06",
+   "computed": "1.025",
+   "printed": "1.025",
+   "source": "friction_boundary",
+   "pass_": true
+  },
+  {
+   "label": "friction gamma at A=1e-05",
+   "computed": "1.196",
+   "printed": "1.196",
+   "source": "friction_boundary",
+   "pass_": true
+  },
+  {
+   "label": "friction gamma at A=3e-05",
+   "computed": "1.425",
+   "printed": "1.425",
+   "source": "friction_boundary",
+   "pass_": true
+  },
+  {
+   "label": "friction gamma at A=1e-04",
+   "computed": "1.836",
+   "printed": "1.836",
+   "source": "friction_boundary",
+   "pass_": true
+  },
+  {
+   "label": "friction gamma at A=1e-03",
+   "computed": "3.046",
+   "printed": "3.046",
+   "source": "friction_boundary",
+   "pass_": true
+  },
+  {
+   "label": "friction gamma at A=5e-03",
+   "computed": "4.557",
+   "printed": "4.557",
+   "source": "friction_boundary",
+   "pass_": true
+  },
+  {
+   "label": "friction gamma at A=2e-02",
+   "computed": "6.085",
+   "printed": "6.085",
+   "source": "friction_boundary",
+   "pass_": true
+  },
+  {
+   "label": "friction gamma at A=6e-02",
+   "computed": "2.390",
+   "printed": "2.390",
+   "source": "friction_boundary",
+   "pass_": true
+  },
+  {
+   "label": "friction max gamma",
+   "computed": "6.08",
+   "printed": "$6.08$",
+   "source": "friction_boundary",
+   "pass_": true
+  },
+  {
+   "label": "noise 20 dB at span 400",
+   "computed": "1.0015",
+   "printed": "1.0015",
+   "source": "noise_sensing",
+   "pass_": true
+  },
+  {
+   "label": "noise 20 dB at span 4000",
+   "computed": "0.9982",
+   "printed": "0.9982",
+   "source": "noise_sensing",
+   "pass_": true
+  },
+  {
+   "label": "8 vs 6 sensor ratio",
+   "computed": "1.94",
+   "printed": "eight equally\nspaced sensors are worse than six",
+   "source": "noise_sensing",
+   "pass_": true
+  },
+  {
+   "label": "unstable multipliers",
+   "computed": 2,
+   "printed": "\\emph{exactly two}",
+   "source": "onset_mechanism",
+   "pass_": true
+  },
+  {
+   "label": "crossing argument",
+   "computed": "0.526",
+   "printed": "\\pm0.526\\pi",
+   "source": "onset_mechanism",
+   "pass_": true
+  },
+  {
+   "label": "rotation frequency",
+   "computed": "0.2241",
+   "printed": "0.2241",
+   "source": "onset_mechanism",
+   "pass_": true
+  },
+  {
+   "label": "sideband mean offset",
+   "computed": "0.2268",
+   "printed": "0.2268",
+   "source": "onset_mechanism",
+   "pass_": true
+  },
+  {
+   "label": "rotation vs offset",
+   "computed": "1.2",
+   "printed": "1.2\\,\\%",
+   "source": "onset_mechanism",
+   "pass_": true
+  },
+  {
+   "label": "multipliers off the circle",
+   "computed": "0.991",
+   "printed": "|\\lambda|\\approx0.991",
+   "source": "onset_mechanism",
+   "pass_": true
+  },
+  {
+   "label": "decomposition vs reference below onset",
+   "computed": "8.2e-03",
+   "printed": "agree to\n$8.2\\times10^{-3}$ over an $800$-fold range of $\\mu$",
+   "source": "bias_map",
+   "pass_": true
+  },
+  {
+   "label": "sideband share at largest mu",
+   "computed": "0.54",
+   "printed": "more than half of the",
+   "source": "onset_mechanism",
+   "pass_": true
+  },
+  {
+   "label": "recipe gain, carrier to pair",
+   "computed": "78",
+   "printed": "factor of $78$",
+   "source": "recovery_recipe",
+   "pass_": true
+  },
+  {
+   "label": "conservative single-mode floor",
+   "computed": "0.45",
+   "printed": "falls away to\n$0.45$",
+   "source": "share_law",
+   "pass_": true
+  },
+  {
+   "label": "floor-aware worst over grid (pct)",
+   "computed": "0.44",
+   "printed": "is $0.44\\,\\%$ in the mean",
+   "source": "noise_sensing",
+   "pass_": true
+  },
+  {
+   "label": "log-linear worst over grid (pct)",
+   "computed": "10.8",
+   "printed": "runs to $10.8\\,\\%$",
+   "source": "noise_sensing",
+   "pass_": true
+  },
+  {
+   "label": "estimator improvement factor",
+   "computed": "24",
+   "printed": "factor of $24$",
+   "source": "noise_sensing",
+   "pass_": true
+  },
+  {
+   "label": "log-linear rebound at 20 dB",
+   "computed": "34",
+   "printed": "$34$ between the best window",
+   "source": "noise_sensing",
+   "pass_": true
+  },
+  {
+   "label": "floor-aware bound at 20 dB (pct)",
+   "computed": "0.34",
+   "printed": "bounded by $0.34\\,\\%$",
+   "source": "noise_sensing",
+   "pass_": true
+  },
+  {
+   "label": "floor-aware worst single realization (pct)",
+   "computed": "1.5",
+   "printed": "$1.5\\,\\%$ in a",
+   "source": "noise_sensing",
+   "pass_": true
+  },
+  {
+   "label": "fitted floor at m=8",
+   "computed": "1.0e-01",
+   "printed": "$1.0\\times10^{-1}$",
+   "source": "noise_sensing",
+   "pass_": true
+  },
+  {
+   "label": "fitted floor at m=12",
+   "computed": "8.0e-13",
+   "printed": "$8.0\\times10^{-13}$",
+   "source": "noise_sensing",
+   "pass_": true
+  },
+  {
+   "label": "invariant pairs",
+   "computed": 4,
+   "printed": "the four\n$\\lambda$-invariant pairs",
+   "source": "bias_map",
+   "pass_": true
+  },
+  {
+   "label": "invariant-pair spread, decomposition",
+   "computed": "1.2e-10",
+   "printed": "$1.2\\times10^{-10}$",
+   "source": "bias_map",
+   "pass_": true
+  },
+  {
+   "label": "invariant-pair spread, envelope",
+   "computed": "2.3e-10",
+   "printed": "$2.3\\times10^{-10}$",
+   "source": "bias_map",
+   "pass_": true
+  },
+  {
+   "label": "share at beta=0.25",
+   "computed": "0.64-0.89",
+   "printed": "$0.64$--$0.89$",
+   "source": "bandwidth_axis",
+   "pass_": true
+  },
+  {
+   "label": "damping at beta=0.25",
+   "computed": "0.894-1.150",
+   "printed": "damping of $0.89$--$1.15$",
+   "source": "bandwidth_axis",
+   "pass_": true
+  },
+  {
+   "label": "pooled share proxy mean error",
+   "computed": "0.395",
+   "printed": "mean absolute error $0.395$",
+   "source": "pooled",
+   "pass_": true
+  },
+  {
+   "label": "pooled share proxy worst",
+   "computed": "5.09",
+   "printed": "worst case $5.09$",
+   "source": "pooled",
+   "pass_": true
+  },
+  {
+   "label": "pooled share proxy correlation",
+   "computed": "-0.004",
+   "printed": "correlation\n$-0.004$",
+   "source": "pooled",
+   "pass_": true
+  },
+  {
+   "label": "retired: at $0.0831$",
+   "computed": "absent",
+   "printed": "at $0.0831$",
+   "source": "manuscript",
+   "pass_": true
+  },
+  {
+   "label": "retired: $0.0837$--$0.0881$",
+   "computed": "absent",
+   "printed": "$0.0837$--$0.0881$",
+   "source": "manuscript",
+   "pass_": true
+  },
+  {
+   "label": "retired: residual $0.7\\,\\%$",
+   "computed": "absent",
+   "printed": "residual $0.7\\,\\%$",
+   "source": "manuscript",
+   "pass_": true
+  },
+  {
+   "label": "weighting energy share: median",
+   "computed": "0.0008",
+   "printed": "$0.0008$",
+   "source": "nonuniform_damping",
+   "pass_": true
+  },
+  {
+   "label": "weighting energy share: worst",
+   "computed": "0.0177",
+   "printed": "$0.0177$",
+   "source": "nonuniform_damping",
+   "pass_": true
+  },
+  {
+   "label": "weighting energy share: above 10pct",
+   "computed": "0",
+   "printed": "$0$",
+   "source": "nonuniform_damping",
+   "pass_": true
+  },
+  {
+   "label": "weighting modal amplitude: median",
+   "computed": "0.0149",
+   "printed": "$0.0149$",
+   "source": "nonuniform_damping",
+   "pass_": true
+  },
+  {
+   "label": "weighting modal amplitude: worst",
+   "computed": "0.1221",
+   "printed": "$0.1221$",
+   "source": "nonuniform_damping",
+   "pass_": true
+  },
+  {
+   "label": "weighting modal amplitude: above 10pct",
+   "computed": "3",
+   "printed": "$3$",
+   "source": "nonuniform_damping",
+   "pass_": true
+  },
+  {
+   "label": "weighting tracked mode: median",
+   "computed": "0.0075",
+   "printed": "$0.0075$",
+   "source": "nonuniform_damping",
+   "pass_": true
+  },
+  {
+   "label": "weighting tracked mode: worst",
+   "computed": "0.2594",
+   "printed": "$0.2594$",
+   "source": "nonuniform_damping",
+   "pass_": true
+  },
+  {
+   "label": "weighting tracked mode: above 10pct",
+   "computed": "8",
+   "printed": "$8$",
+   "source": "nonuniform_damping",
+   "pass_": true
+  },
+  {
+   "label": "weighting unweighted: median",
+   "computed": "1.3154",
+   "printed": "$1.3154$",
+   "source": "nonuniform_damping",
+   "pass_": true
+  },
+  {
+   "label": "weighting unweighted: worst",
+   "computed": "7.9102",
+   "printed": "$7.9102$",
+   "source": "nonuniform_damping",
+   "pass_": true
+  },
+  {
+   "label": "weighting unweighted: above 10pct",
+   "computed": "33",
+   "printed": "$33$",
+   "source": "nonuniform_damping",
+   "pass_": true
+  },
+  {
+   "label": "Rayleigh spread",
+   "computed": "16",
+   "printed": "a spread of $16$",
+   "source": "nonuniform_damping",
+   "pass_": true
+  },
+  {
+   "label": "Rayleigh record count",
+   "computed": "33",
+   "printed": "$33$ records",
+   "source": "nonuniform_damping",
+   "pass_": true
+  },
+  {
+   "label": "cbar over c_m range, low",
+   "computed": "0.844",
+   "printed": "$0.844$",
+   "source": "nonuniform_damping",
+   "pass_": true
+  },
+  {
+   "label": "cbar over c_m range, high",
+   "computed": "1.066",
+   "printed": "$1.066$",
+   "source": "nonuniform_damping",
+   "pass_": true
+  },
+  {
+   "label": "second configuration psi ratio",
+   "computed": "0.37",
+   "printed": "a factor of $0.37$ in coupling",
+   "source": "second_configuration",
+   "pass_": true
+  },
+  {
+   "label": "second configuration worst envelope",
+   "computed": "0.01",
+   "printed": "returns the true coefficient to\n$0.01\\,\\%$",
+   "source": "second_configuration",
+   "pass_": true
+  },
+  {
+   "label": "second configuration worst decomposition",
+   "computed": "0.01",
+   "printed": "agrees with it to $0.01\\,\\%$",
+   "source": "second_configuration",
+   "pass_": true
+  },
+  {
+   "label": "second configuration share",
+   "computed": "0.9988",
+   "printed": "holds $0.9988$ of the energy",
+   "source": "second_configuration",
+   "pass_": true
+  },
+  {
+   "label": "second configuration max multiplier",
+   "computed": "0.998",
+   "printed": "the largest is\n$0.998$",
+   "source": "second_configuration",
+   "pass_": true
+  },
+  {
+   "label": "second configuration mu range top",
+   "computed": "3.2e-03",
+   "printed": "$3.2\\times10^{-3}$",
+   "source": "second_configuration",
+   "pass_": true
+  },
+  {
+   "label": "retired: superseded invariant-pair spread",
+   "computed": "absent",
+   "printed": "'9.7\\\\times10^{-9}' must NOT appear",
+   "source": "manuscript",
+   "pass_": true
+  },
+  {
+   "label": "retired: there are four invariant pairs, not five",
+   "computed": "absent",
+   "printed": "'five pairs' must NOT appear",
+   "source": "manuscript",
+   "pass_": true
+  },
+  {
+   "label": "retired: superseded decomposition invariance spread",
+   "computed": "absent",
+   "printed": "'$9.5\\\\times10^{-8}$' must NOT appear",
+   "source": "manuscript",
+   "pass_": true
+  },
+  {
+   "label": "retired: 800-fold is 2.90 decades; the shift spans 2.55",
+   "computed": "absent",
+   "printed": "'three decades' must NOT appear",
+   "source": "manuscript",
+   "pass_": true
+  },
+  {
+   "label": "retired: the degradation figure was 31x",
+   "computed": "absent",
+   "printed": "'two orders of magnitude' must NOT appear",
+   "source": "manuscript",
+   "pass_": true
+  },
+  {
+   "label": "retired: the 8-vs-6 sensor ratio is not four",
+   "computed": "absent",
+   "printed": "'four times worse' must NOT appear",
+   "source": "manuscript",
+   "pass_": true
+  },
+  {
+   "label": "retired: the 8-vs-6 sensor ratio is 1.94",
+   "computed": "absent",
+   "printed": "'five times worse' must NOT appear",
+   "source": "manuscript",
+   "pass_": true
+  },
+  {
+   "label": "retired: the rank-deficiency mechanism is withdrawn",
+   "computed": "absent",
+   "printed": "'rank-deficient' must NOT appear",
+   "source": "manuscript",
+   "pass_": true
+  },
+  {
+   "label": "retired: superseded maximum decomposition error (grid-only maximum; the single-mode records give 128)",
+   "computed": "absent",
+   "printed": "'$111\\\\,\\\\%$' must NOT appear",
+   "source": "manuscript",
+   "pass_": true
+  },
+  {
+   "label": "retired: the window optimum was an estimator artifact",
+   "computed": "absent",
+   "printed": "'optimum shortens' must NOT appear",
+   "source": "manuscript",
+   "pass_": true
+  },
+  {
+   "label": "retired: the window optimum was an estimator artifact",
+   "computed": "absent",
+   "printed": "'best window shortens' must NOT appear",
+   "source": "manuscript",
+   "pass_": true
+  }
+ ]
+}

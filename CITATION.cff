@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this archive, please cite the paper and the archive."
+title: "Modal energy share and sideband instability: code and stored results"
+version: 1.0.0
+doi: 10.5281/zenodo.23818514
+date-released: 2026-10-30
+license: MIT
+repository-code: "https://github.com/nld-uri/modal-energy-share-damping"
+authors:
+  - family-names: Chelidze
+    given-names: David
+    affiliation: "Nonlinear Dynamics Laboratory, University of Rhode Island"
+    email: chelidze@uri.edu
+keywords:
+  - nonlinear system identification
+  - damping identification
+  - nonlinear normal modes
+  - Floquet stability
+  - characteristic value decomposition
+references:
+  - type: software
+    title: "NCVD toolbox: Nonlinear Characteristic Value Decomposition for Python and MATLAB"
+    version: 1.0.0
+    doi: 10.5281/zenodo.23549069
+    authors:
+      - family-names: Chelidze
+        given-names: David
+      - family-names: Li
+        given-names: H.
+      - family-names: Stein
+        given-names: D. L.
