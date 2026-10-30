@@ -2,7 +2,7 @@
   "title": "Modal energy share and sideband instability: code and stored results",
   "upload_type": "software",
   "version": "1.0.0",
-  "description": "Code, stored results and verification scripts for D. Chelidze, 'Modal energy share and sideband instability: when is an identified damping value meaningful?' (manuscript in preparation for Nonlinear Dynamics, 2026). Every number, table and figure in the paper is produced by this code from a simulated 24-mass chain with one grounded cubic spring; there are no measured data. Includes the stored results, a verifier that recomputes 161 quoted quantities and checks them against the manuscript, the pre-declared analyses with their SHA-256-recorded pre-declarations (88 further checks), and an unexecuted MATLAB port.",
+  "description": "Code, stored results and verification scripts for D. Chelidze, 'Modal energy share and sideband instability: when is an identified damping value meaningful?' (submitted to Nonlinear Dynamics, 30 October 2026). Every number, table and figure in the paper is produced by this code from a simulated 24-mass chain with one grounded cubic spring; there are no measured data. Includes the stored results, a verifier that recomputes 161 quoted quantities and checks them against the manuscript, the pre-declared analyses with their SHA-256-recorded pre-declarations (88 further checks), and an unexecuted MATLAB port.",
   "creators": [
     {
       "name": "Chelidze, David",

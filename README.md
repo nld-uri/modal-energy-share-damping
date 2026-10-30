@@ -5,8 +5,8 @@
 Code, stored results and verification scripts for
 
 > D. Chelidze, *Modal energy share and sideband instability: when is an
-> identified damping value meaningful?* (manuscript in preparation for
-> Nonlinear Dynamics, 2026).
+> identified damping value meaningful?* (submitted to *Nonlinear
+> Dynamics*, 30 October 2026; under review).
 
 Every number, table and figure in the paper is produced by this code from a
 simulated model. There are no measured data. The model is a fixed–fixed chain
